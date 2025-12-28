@@ -1,0 +1,3 @@
+ffmpeg -i test.png -vf drawtext="fontsize=10:fontcolor=yellow:text='Hello World':x=(w-text_w)/70:y=(h-text_h)" -y output.png
+ffmpeg -i test.png -vf drawtext="fontsize=10:fontcolor=yellow:x=(w-text_w)/70:y=(h-text_h):textfile=t.txt" -y output.png
+
